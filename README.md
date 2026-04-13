@@ -105,3 +105,133 @@ Submit your assignment by clicking in the Module Assignment found in the Content
 Review the Grading Rubric for further guidance.
 
 #### Summary
+
+This week focused on on compliance with federal regulations and use/misuse cases to form a diagram of what software should and should not be allowed to do.  Use and misuse cases are useful in showing how software *should* react to user interaction to help prevent accidental or intentional abuse of the software.  Compliance with federal (and possible state regulations) is important, not just because they are generally considered to be best practice, but also because non-compliance can come with stiff penalties.
+
+In general, the EU has stiffer protections than tha US.  The GLDP spells out user protections in no uncertain terms.  Any US company that does business in the EU must follow these while dealing with the EU, and it is generally easier for them to simply comply with them everywere rather than having two sets of terms and services.
+
+## Week XX
+
+**Monday, April 6th, 2026 through Sunday, April 12th, 2026**
+
+### Module Three: Secure Software Architecture and Design
+
+Welcome to Module 3!
+
+During this module, you will be getting an introduction to threat modeling, performing secure interface design, modeling and classifying data, and how to define secure operational architectures.
+
+#### Deliverables
+
+- Module 3.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 3.2 Assignment: Threat Modeling - Due by Sunday 11:59 p.m., CT.
+- Module 3.3 Quiz: Secure Software Architecture/Design - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+The following are the required materials for this module. Please review these items before you begin your module assignments.
+
+- CSSLP Exam Guide, 3rd. Edition - Chapters 6 & 7.
+- [Ransomware as a Service (RaaS)](https://www.crowdstrike.com/en-us/cybersecurity-101/ransomware/ransomware-as-a-service-raas/), Kurt Baker, CrowdStrike, 2023.
+- [Malware as a Service (MaaS)](https://www.telsy.com/en/malware-as-a-service-maas-telsy/), Tim Gruppo, Telsey, 2021.
+- [Security as a Service (SECaaS)](https://www.fortinet.com/resources/cyberglossary/security-as-a-service), n.a., Fortinet, n.d.
+
+#### Discussion 
+
+For this module's discussion board assignment, select one of the following to discuss:
+
+- While IaaS, PaaS, and SaaS are all widely accepted, what are some of the security issues associated with each? Can those issues be mitigated? If so, how?
+- Describe how SECaaS works. Would it make sense to use this type of service? Why or why not?
+- More often than not, you won't be creating an entire system from the ground up. Typically you are building functionality to integrate into existing systems. While your new application might be fairly secure, what needs to be done before integration to ensure maximum security for the entire system?
+
+#### Assignments
+
+##### Assignment 3.2 - Threat Modeling
+
+Threat modeling is the process of identifying potential threats to the application, ranking these threats by risk, and selecting appropriate countermeasures or mitigations for the threats.
+
+In the Module 3 Reading, you will find instructions for completing a threat modeling exercise using OWASP's Threat Dragon tool. Complete the exercise and attach the appropriate file to this assignment link.ß
+
+#### Summary
+
+
+
+## Week Four
+
+**Monday, April 13th, 2026 through Sunday, April 19h, 2026**
+
+### Module Four: Secure Coding Practices
+
+During this module, you will be exploring secure coding practices, declarative vs. imperative security, memory management, and issues with input validation.
+
+#### Deliverables
+
+- Module 4.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 4.2 Assignment: Secure Design Principles - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapter 8.
+- USENIX ATC '20 - [End the Senseless Killing: Improving Memory Management for Mobile Operating Systems](https://youtu.be/A0ANld6It9c?si=8gIf5JsjdzAOZpK4), Niel Lebeck, USENIX ATC '20, Aug 28, 2020.
+- [The 12 best IDEs for programming](https://www.techrepublic.com/article/best-ide-software/), Franklin Okeke, TechRepublic, July 7, 2022.
+
+#### Discussion Board: Coding: Defensive and Secure
+
+For this module's discussion board assignment, select one of the following to discuss:
+
+- Explain how exception handling works with a specific language of your choice. Provide an example of the code.
+- Find at least two applications that act as code analyzers. Do they analyze statically or dynamically? Which would you prefer? Why?
+- In Chapter 8, the text mentions input validation. Provide a description and an example for at least three types of data validation checks.
+- What are some security provisions to manage sessions? Describe at least two and which attack they can guard against.
+
+#### Assignments
+
+##### Assignment 4.2: Secure Design Principles
+
+There are many sets of secure design principles available to you. In addition to your text, find at least two (2) other sets of principles. What is common to all sets? What only appears in one set? After reading through all three, come up with your own list of what you consider to be key principles. At the end of the list, explain why you chose the items you did. Make sure you include a list of resources used.
+
+#### Summary
+
+### Module Five: Analyzing Code for Security Risks
+
+During this module, you will explore vulnerability databases and be introduced to static/dynamic testing, code reviews, interactive security testing, and current known countermeasures.
+
+#### Deliverables
+
+- Module 5.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 5.2 Assignment: Security Testing - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapter 9.
+- [How a SQL Injection Attack Works](https://youtu.be/LcrThDHBr50?si=y1Ydv3JwRwgFIe61), John Wagnon, YouTube, Jun 2, 2021.
+- [Cross-Site Scripting (XSS) Testing: XSS Alert Example](https://www.softwaretestinghelp.com/cross-site-scripting-xss-attack-test/), n.a., Software Testing Help, May 9, 2025.
+
+#### Discussion Board: Software Weakness
+
+While many known security breaches can be attributed to user error, poorly developed software is often at fault. For many years, the Mitre organization has kept lists of the known software weaknesses out in the world, and occasionally publishes a Top 25 Most Dangerous Software List. Take a look at the [Common Weakness Enumeration](https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html) site.
+
+Select one of the weaknesses (try and select one that other students have not chosen), and provide a briefing for the class.
+
+In your brief, include the following:
+
+1. Date the CWE was submitted.
+1. A description, in your own words.
+1. How it works.
+1. Which concept(s) of security does it violate? Identification? Authentication? Authorization? Availability? How? Again, in your own words.
+1. Any mitigations recommended? If so, provide a brief description of one.
+
+#### Assignments
+
+##### Assignment 5.2: Security Testing
+
+For each of the following provide a brief description (in your own words) of the term, a name and description of an automated tool to perform that task (if one exists), and when in the development process each one is implemented:
+
+- DAST
+- SAST
+- IAST
+- RASP
+
+#### Summary
