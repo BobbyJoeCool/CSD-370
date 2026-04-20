@@ -193,6 +193,8 @@ There are many sets of secure design principles available to you. In addition to
 
 #### Summary
 
+This module was about the secure practices of writing code.  Principles of secure coding include Least Privilege, Defense in Depth, Secure by Default, Don't Hardcode Secrets, and many others.  Additionally, treating security as a requirement and a priority rather than an afterthought helps ensure that software is secure.  Finally, continual monitoring of current threat conditions in need as the cybersecurity field is a constantly changing field that will require continuous updating.
+
 ### Module Five: Analyzing Code for Security Risks
 
 During this module, you will explore vulnerability databases and be introduced to static/dynamic testing, code reviews, interactive security testing, and current known countermeasures.
@@ -233,5 +235,130 @@ For each of the following provide a brief description (in your own words) of the
 - SAST
 - IAST
 - RASP
+
+#### Summary
+
+This module focused on analyzing code for security risks.  There are 4 main methods for this, SAST, DAST, IAST, and RASP.  Each has a place in the Secure SDLC, and no one should be relied upon as a one method catches everything.  SAST analyzes code directly, and can miss interactions.  DAST acts as an attacker and probes for weaknesses, but doesn't provide good feedback about where the weakness is in the code (and can miss things).  IAST is a sensor embedded in the program that tracks how processes run and probes for weaknesses, combining DAST and SAST, but can only test code that runs (and slows performance of the application).  RASP is completely different in that it runs concurrently with the application while it is deployed and serves as a "last line of defense" against threats in the live environment.
+
+
+## Week Five
+
+**Monday, April 20th, 2026 through Sunday, April 26th, 2026**
+
+### Module Six: Implementation of Security Controls
+
+During this module, you will be examining methods for addressing security risks, how to apply security during the build process, how to securely integrate components, and the significance of systems-of-systems integration.
+
+#### Deliverables
+
+- Module 6.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 6.2 Assignment: Code Signing - Due by Sunday 11:59 p.m., CT.
+- Module 6.3 Quiz: Secure Software Implementation - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapter 10.
+- [Address Space Layout Randomization](https://youtu.be/IX2Qf8K2n9E?si=UgxSyX8CP78g0uYF), n.a., Udacity, Jun 6, 2016.
+- [Session Management: An Overview](https://www.securecoding.com/blog/session-management-an-overview/), n.a, SecureCoding, April 29th, 2021
+- [370_GPG_Exercise_2025](module-6/GPGInstallandBasicUse.pdf)) 
+
+#### Discussion Board: Cryptographic Agility
+
+Time for a little research. While this chapter describes cryptographic agility, it doesn't really explain how to go about incorporating into the business. Find at least two (2) sources that explain what cryptographic agility is, and best practices for including it in the development process. Summarize each source, and provide an opinion on which source you prefer and why. Include links to each source.
+
+#### Assignments
+
+##### Assignment 6.2: Code Signing
+
+For this exercise, you'll need to follow these steps:
+
+1. Complete the 370_GPG_Exercise_xxx.pdf located in the Module 6 Reading area to exchange keys and send an encrypted message.
+1. Once you receive an email from the instructor with a zipped file and an encrypted digest of the ArrayManip.html code...
+    - Unzip the file..
+    - You'll need to decrypt that encrypted digest using your private key. **Take a screenshot of the decrypted digest**.
+    - You'll then need to go out to https://md5file.com/calculator or https://emn178.github.io/online-tools/sha256_checksum.html upload or drag/drop the ArrayManip.html, and generate a digest of the file. **Take a screenshot of the generated digest**.
+    - Lastly, you'll need to compare the decrypted digest you received and the digest you just generated.
+    - Create a Word doc, put your name at the top. Include the date/time you completed the assignment, the screenshots, and whether or not the digests match (they may not). Save the file.
+
+#### Report
+
+##### Summary and Deliverables Schedule
+
+Moira Bennie, the CIO at Mesusa Corporation (MeCo), has decided that the organization needs a dedicated change control/configuration management process. She tasked George Everett, the senior developer, to develop a report that provides information on the importance of this type of process as well as a blueprint for setting up the process as soon as possible. George has now passed the task to you.
+
+The report should include the following, at minimum:
+
+- A detailed description of each process and if/how they are related.
+- The benefits and drawbacks of having these processes in place.
+- A recommendation for what needs to be in place for the process to work efficiently. Adding a team? Using an employee as needed?
+- The activities expected to use the process at each phase of the secure development lifecycle.
+- Estimates of the number of requests at each phase of the secure development lifecycle.
+- A list of resources used in case either Moira or George wants to view where to find supporting information.
+- This report is due by the end of the course. It should be between 5-7 pages, not counting a cover page and a reference page. If you can find graphics to support elements of the report, include them.
+
+Deliverables:
+
+1. 20 points = Outline and list of references due Module 7.
+1. 40 points = Rough draft due Module 9.
+1. 40 points = Final report due Module 11.
+
+
+#### Summary
+
+### Module Seven: Security Test Cases
+
+During this module, you will be examining how to develop security test cases, explore the role of failures in testing, explore the use of regression testing, and provided an introduction to penetration tests, fuzzing, and scanning.
+
+#### Deliverables
+
+- Module 7.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 7.2 Assignment: Security Testing - Due by Sunday 11:59 p.m., CT.
+- Module 7.3 Assignment: Report Outline and Reference List - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapter 11.
+- [Synthetic Data Redefines the Test Data Lifecycle](https://www.genrocket.com/newsletter/test-data-lifecycle/), n.a., GenRocket, Jun 30, 2021.
+- [How to Write Test Cases in Software Testing with Examples](https://www.guru99.com/test-case.html), Thomas Hamilton, GURU99, August 14, 2025.
+
+#### Discussion Board: Security Test Case
+
+George Everett, the senior developer at the Mesusa Corporation (MeCo), is working on creating security test cases, and needs your help. He only started the process and has already created these three topics for ***password creation/logging*** in suitable for a security test case.
+
+- Password must be at least 8 characters, include capital letter, number, and special character (@#$%^&*)
+- Password cannot be the same as the login name or user's last name
+- After three attempts with incorrect password, user is locked out
+
+George would like you to use the template suggested by the 'Write Test Cases' in the Module 7 Reading above, and write two security test cases. One from the list above and one other (not in the list above) that tests another aspect of user behavior. You do not need to actually run the tests and report the results, but you do need to fill out the other information: ID, Description, Steps, Test Data, and Expected Results.
+
+In your responses to other students, provide feedback on their proposed test cases.
+
+#### Assignments
+
+##### Assignment 7.2: Security Testing
+
+For this assignment, make sure you read through the assigned reading. You may also need more information for the tests. This chapter presents you will multiple types of testing; scanning, attack surface analysis, penetration testing, fuzzing, simulation testing, testing for failure, and regression testing. Create a checklist that indicates in what order these tests should be done. For example, which should be done first? Last? Then, for each of these tests, complete the following:
+
+1. Describe the test (in your own words), and what tools are available, if any, to run the test.
+1. What are the expected results of the test?
+1. Why did you put this test in the order you did? In other words, why is it first and/or last?
+
+##### Assignment 7.2: Final Report Deliverable 1
+
+Moira Bennie, the CIO at Mesusa Corporation (MeCo), has decided that the organization needs a dedicated change control/configuration management process. She tasked George Everett, the senior developer, to develop a report that provides information on the importance of this type of process as well as a blueprint for setting up the process as soon as possible. George has now passed the task to you.
+
+The report should include the following, at minimum:
+
+- A detailed description of each process and if/how they are related.
+- The benefits and drawbacks of having these processes in place.
+- A recommendation for what needs to be in place for the process to work efficiently. Adding a team? Using an employee as needed?
+- The activities expected to use the process at each phase of the secure development lifecycle.
+- A list of resources used in case either Moira or George wants to view where to find supporting information.
+
+This report is due by the end of the course. It should be between 5-7 pages, not counting a cover page and a reference page. If you can find graphics to support elements of the report, include them.
+
+**Outline and list of references due Module 7.**
 
 #### Summary
