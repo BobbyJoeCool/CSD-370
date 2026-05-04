@@ -51,9 +51,9 @@ The Mesusa Corporation, which you'll be working with, is ready to integrate auth
 
 - In week one, we talked a lot about the basics of security and cyber-crime.
 - Talked of the basics of security
-    - CIA triad (Confidentialtiy, Integrity, Availability)
-    - Action-Oriented Security (AAA): Authenication, Authorization, Accountability
-    - Nonrepudiation: The concept that a user cannot deny that an action was performed (because the computer logged it).
+  - CIA triad (Confidentialtiy, Integrity, Availability)
+  - Action-Oriented Security (AAA): Authenication, Authorization, Accountability
+  - Nonrepudiation: The concept that a user cannot deny that an action was performed (because the computer logged it).
 
 ## Week Two
 
@@ -77,12 +77,11 @@ The following are the required materials for this module. Please review these it
 - CSSLP Exam Guide, 3rd. Edition - Chapters 3, 4, & 5.
 - [Michael Hicks on Why Building Security In Requires New Ways of Thinking](https://www.ieee-security.org/interviews/michael-hicks.html), ieee-security.org, 2017
 - [OWASP Secure Coding Practices-Quick Reference Guide](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/), Keith Turpin, OWASP, n.d.
-- [UseCaseExercise](Module-2/UseCaseExercise.pdf) 
+- [UseCaseExercise](Module-2/UseCaseExercise.pdf)
 
 #### Discussion Board
 
 **Discussion Question: Use/Abuse Cases**
-
 
 I've sent an announcement for group membership. In the Module 2 Reading area you'll find a use case diagram. Basically it depicts a user logging into a system, creating records, updating records, deleting records, printing records, and logging out of the system. Your group needs to find possible abuse cases for each legitimate activity. You might want to make a list first, then create your own diagram, using Word or PowerPoint. The person icon can be found under Insert -> Icon in the toolbar.
 
@@ -106,9 +105,9 @@ Review the Grading Rubric for further guidance.
 
 #### Summary
 
-This week focused on on compliance with federal regulations and use/misuse cases to form a diagram of what software should and should not be allowed to do.  Use and misuse cases are useful in showing how software *should* react to user interaction to help prevent accidental or intentional abuse of the software.  Compliance with federal (and possible state regulations) is important, not just because they are generally considered to be best practice, but also because non-compliance can come with stiff penalties.
+This week focused on on compliance with federal regulations and use/misuse cases to form a diagram of what software should and should not be allowed to do. Use and misuse cases are useful in showing how software _should_ react to user interaction to help prevent accidental or intentional abuse of the software. Compliance with federal (and possible state regulations) is important, not just because they are generally considered to be best practice, but also because non-compliance can come with stiff penalties.
 
-In general, the EU has stiffer protections than tha US.  The GLDP spells out user protections in no uncertain terms.  Any US company that does business in the EU must follow these while dealing with the EU, and it is generally easier for them to simply comply with them everywere rather than having two sets of terms and services.
+In general, the EU has stiffer protections than tha US. The GLDP spells out user protections in no uncertain terms. Any US company that does business in the EU must follow these while dealing with the EU, and it is generally easier for them to simply comply with them everywere rather than having two sets of terms and services.
 
 ## Week XX
 
@@ -136,7 +135,7 @@ The following are the required materials for this module. Please review these it
 - [Malware as a Service (MaaS)](https://www.telsy.com/en/malware-as-a-service-maas-telsy/), Tim Gruppo, Telsey, 2021.
 - [Security as a Service (SECaaS)](https://www.fortinet.com/resources/cyberglossary/security-as-a-service), n.a., Fortinet, n.d.
 
-#### Discussion 
+#### Discussion
 
 For this module's discussion board assignment, select one of the following to discuss:
 
@@ -153,8 +152,6 @@ Threat modeling is the process of identifying potential threats to the applicati
 In the Module 3 Reading, you will find instructions for completing a threat modeling exercise using OWASP's Threat Dragon tool. Complete the exercise and attach the appropriate file to this assignment link.ß
 
 #### Summary
-
-
 
 ## Week Four
 
@@ -193,7 +190,7 @@ There are many sets of secure design principles available to you. In addition to
 
 #### Summary
 
-This module was about the secure practices of writing code.  Principles of secure coding include Least Privilege, Defense in Depth, Secure by Default, Don't Hardcode Secrets, and many others.  Additionally, treating security as a requirement and a priority rather than an afterthought helps ensure that software is secure.  Finally, continual monitoring of current threat conditions in need as the cybersecurity field is a constantly changing field that will require continuous updating.
+This module was about the secure practices of writing code. Principles of secure coding include Least Privilege, Defense in Depth, Secure by Default, Don't Hardcode Secrets, and many others. Additionally, treating security as a requirement and a priority rather than an afterthought helps ensure that software is secure. Finally, continual monitoring of current threat conditions in need as the cybersecurity field is a constantly changing field that will require continuous updating.
 
 ### Module Five: Analyzing Code for Security Risks
 
@@ -238,8 +235,7 @@ For each of the following provide a brief description (in your own words) of the
 
 #### Summary
 
-This module focused on analyzing code for security risks.  There are 4 main methods for this, SAST, DAST, IAST, and RASP.  Each has a place in the Secure SDLC, and no one should be relied upon as a one method catches everything.  SAST analyzes code directly, and can miss interactions.  DAST acts as an attacker and probes for weaknesses, but doesn't provide good feedback about where the weakness is in the code (and can miss things).  IAST is a sensor embedded in the program that tracks how processes run and probes for weaknesses, combining DAST and SAST, but can only test code that runs (and slows performance of the application).  RASP is completely different in that it runs concurrently with the application while it is deployed and serves as a "last line of defense" against threats in the live environment.
-
+This module focused on analyzing code for security risks. There are 4 main methods for this, SAST, DAST, IAST, and RASP. Each has a place in the Secure SDLC, and no one should be relied upon as a one method catches everything. SAST analyzes code directly, and can miss interactions. DAST acts as an attacker and probes for weaknesses, but doesn't provide good feedback about where the weakness is in the code (and can miss things). IAST is a sensor embedded in the program that tracks how processes run and probes for weaknesses, combining DAST and SAST, but can only test code that runs (and slows performance of the application). RASP is completely different in that it runs concurrently with the application while it is deployed and serves as a "last line of defense" against threats in the live environment.
 
 ## Week Five
 
@@ -261,7 +257,7 @@ During this module, you will be examining methods for addressing security risks,
 - CSSLP Exam Guide, 3rd. Edition - Chapter 10.
 - [Address Space Layout Randomization](https://youtu.be/IX2Qf8K2n9E?si=UgxSyX8CP78g0uYF), n.a., Udacity, Jun 6, 2016.
 - [Session Management: An Overview](https://www.securecoding.com/blog/session-management-an-overview/), n.a, SecureCoding, April 29th, 2021
-- [370_GPG_Exercise_2025](module-6/GPGInstallandBasicUse.pdf)) 
+- [370_GPG_Exercise_2025](module-6/GPGInstallandBasicUse.pdf))
 
 #### Discussion Board: Cryptographic Agility
 
@@ -275,11 +271,11 @@ For this exercise, you'll need to follow these steps:
 
 1. Complete the 370_GPG_Exercise_xxx.pdf located in the Module 6 Reading area to exchange keys and send an encrypted message.
 1. Once you receive an email from the instructor with a zipped file and an encrypted digest of the ArrayManip.html code...
-    - Unzip the file..
-    - You'll need to decrypt that encrypted digest using your private key. **Take a screenshot of the decrypted digest**.
-    - You'll then need to go out to https://md5file.com/calculator or https://emn178.github.io/online-tools/sha256_checksum.html upload or drag/drop the ArrayManip.html, and generate a digest of the file. **Take a screenshot of the generated digest**.
-    - Lastly, you'll need to compare the decrypted digest you received and the digest you just generated.
-    - Create a Word doc, put your name at the top. Include the date/time you completed the assignment, the screenshots, and whether or not the digests match (they may not). Save the file.
+   - Unzip the file..
+   - You'll need to decrypt that encrypted digest using your private key. **Take a screenshot of the decrypted digest**.
+   - You'll then need to go out to https://md5file.com/calculator or https://emn178.github.io/online-tools/sha256_checksum.html upload or drag/drop the ArrayManip.html, and generate a digest of the file. **Take a screenshot of the generated digest**.
+   - Lastly, you'll need to compare the decrypted digest you received and the digest you just generated.
+   - Create a Word doc, put your name at the top. Include the date/time you completed the assignment, the screenshots, and whether or not the digests match (they may not). Save the file.
 
 #### Report
 
@@ -303,7 +299,6 @@ Deliverables:
 1. 40 points = Rough draft due Module 9.
 1. 40 points = Final report due Module 11.
 
-
 #### Summary
 
 ### Module Seven: Security Test Cases
@@ -325,9 +320,9 @@ During this module, you will be examining how to develop security test cases, ex
 
 #### Discussion Board: Security Test Case
 
-George Everett, the senior developer at the Mesusa Corporation (MeCo), is working on creating security test cases, and needs your help. He only started the process and has already created these three topics for ***password creation/logging*** in suitable for a security test case.
+George Everett, the senior developer at the Mesusa Corporation (MeCo), is working on creating security test cases, and needs your help. He only started the process and has already created these three topics for **_password creation/logging_** in suitable for a security test case.
 
-- Password must be at least 8 characters, include capital letter, number, and special character (@#$%^&*)
+- Password must be at least 8 characters, include capital letter, number, and special character (@#$%^&\*)
 - Password cannot be the same as the login name or user's last name
 - After three attempts with incorrect password, user is locked out
 
@@ -360,5 +355,111 @@ The report should include the following, at minimum:
 This report is due by the end of the course. It should be between 5-7 pages, not counting a cover page and a reference page. If you can find graphics to support elements of the report, include them.
 
 **Outline and list of references due Module 7.**
+
+#### Summary
+
+Testing for security cases is an important part of making secure software. Different methods accomplish different things,
+
+## Week XX
+
+**Monday, April 27th, 2026 through Sunday, May 3rd, 2026**
+
+### Module Eight: Security Testing Strategy and Plan
+
+During this module, you will be exploring how to create a security testing strategy, functional and nonfunctional security testing, testing standards, and crowd sourcing.
+
+#### Deliverables
+
+- Module 8.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 8.2 Assignment: Bug Bounty - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+The following are the required materials for this module. Please review these items before you begin your module assignments.
+
+- CSSLP Exam Guide, 3rd. Edition - Chapter 12.
+- [Integrating Security Testing into Quality Control](https://staywell.mydigitalpublication.com/publication/?i=83888&p=14&view=issueViewer), Kelley Bryant and James Shanahanh, Issa Journal, October 2011.
+- [What is Test Harness in Software Testing](https://www.softwaretestinghelp.com/what-is-test-harness/), n.a., Software Testing Help, May 2025.
+
+#### Discussion Board
+
+For this module's discussion board assignment, select three (3) of the following types of tests. Find at least one additional resource for each and compare and contrast the tests in terms of when they might be done, expected results, and tools available to perform the test, if any.
+
+- Black-Box Testing
+- White-Box Testing
+- Grey-Box Testing
+- Load Testing
+- Stress Testing
+- Performance Testing
+- Usability Testing
+- Alpha Testing
+- Beta Testing
+
+#### Assignments
+
+##### Assignment 8.2: Bug Bounty
+
+Time for a little research. George Everett, the senior developer at the Mesusa Corporation (MeCo), is trying to decide whether or not to offer a bug bounty program at MeCo. He is not quite exactly sure how they work or what the advantages and disadvantages are. He has asked you to create a one page infographic (plenty of resources online for constructing) that provides information on a bug bounty program. At the very least it should include a description of how a bug bounty works, and the advantages and disadvantages of having a bug bounty program in place. He would also like examples of which type of companies currently have a bug bounty program in place.
+
+#### Summary
+
+## Week Seven
+
+**Monday, May 4th, 2026 through Sunday, May 10th, 2026**
+
+### Module Nine: Software Testing and Acceptance
+
+During this module, you will be examining the fundamentals of assuring all forms of sourced software, the basic terminology of the acceptance process and security validation and verification.
+
+#### Deliverables
+
+- Module 9.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 9.2 Assignment: Test Data Generation - Due by Sunday 11:59 p.m., CT.
+- Module 9.3 Quiz: Secure Software Testing - Due by Sunday 11:59 p.m., CT.
+- Module 9.4 Assignment: Report Rough Draft - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapter 13.
+- [Software Verification and Validation (V&V) Overview and Must-Have Documents](https://www.complianceonline.com/resources/software-verification-and-validation-overview-and-must-have-documents.html), John E. Lincoln, Compliance Online, n.d.
+- Undocumented Feature, n.a., techopedia, June 13, 2018.
+
+#### Discussion Board: Bug Tracking
+
+At the moment George Everett, the senior developer, is working on bug tracking. He understands the importance of documenting code bugs and/or security bugs, but is not sure how that would actually work. Your job this week is to provide him with an option for documenting the bugs. At the least, they'd need a date of discovery, a description, a level of severity assigned, and who was assigned to fix the bug, if the level of severity warrants it.
+
+Consider how you would like to have the data available if you were on his team. Is there software available for this task? Would a whiteboard make more sense? A spreadsheet? Something else? In your recommendation, provide reasons why this would be the optimal choice. You also need to provide a graphic example with test data to support your recommendation.
+
+- In your responses to other students, provide an opinion as to the effectiveness of their recommendation.
+
+#### Assignments
+
+##### Assignment 9.2: Test Data Generation
+
+Time for a little research. While this chapter mentions one method for generating test data, there are others. Find at least three sources for information about generating test data. For each source:
+
+- Describe the methods discussed.
+- A scenario for when that method might be the optimal choice.
+- Include any tools available for generating the data using that method.
+- Include the URL for the source.
+
+##### Assignment 9.4: Rough Draft
+
+Moira Bennie, the CIO at Mesusa Corporation (MeCo), has decided that the organization needs a dedicated change control/configuration management process. She tasked George Everett, the senior developer, to develop a report that provides information on the importance of this type of process as well as a blueprint for setting up the process as soon as possible. George has now passed the task to you.
+
+The report should include the following, at a minimum:
+
+- A detailed description of each process and if/how they are related.
+- The benefits and drawbacks of having these processes in place.
+- A recommendation for what needs to be in place for the process to work efficiently. Adding a team? Using an employee as needed?
+- The activities expected to use the process at each phase of the secure development lifecycle.
+- Estimates of the number of requests at each phase of the secure development lifecycle.
+- A list of resources used in case either Moira or George wants to view where to find supporting information.
+
+This report is due by the end of the course. It should be between 5-7 pages, not counting a cover page and a reference page. If you can find graphics to support elements of the report, include them.
+
+**Rough draft due Module 9.**
 
 #### Summary
