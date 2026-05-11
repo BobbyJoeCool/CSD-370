@@ -463,3 +463,46 @@ This report is due by the end of the course. It should be between 5-7 pages, not
 **Rough draft due Module 9.**
 
 #### Summary
+
+
+
+## Week Eight
+
+**Monday, May 11th, 2026 through Sunday, May 17th, 2026**
+
+### Module Ten: Secure Software Lifecycle Management
+
+During this module, you will be introduced to secure configuration and version control, as well as risk management, promoting a security culture in software development, and implementing continuous improvement.
+
+#### Deliverables
+
+- Module 10.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 10.2 Assignment: Software Development Standards - Due by Sunday 11:59 p.m., CT.
+- Module 10.3 Quiz: Secure Software Lifecycle Management - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapters 14 & 15.
+- [Continuous Improvement](https://asq.org/quality-resources/continuous-improvement), n.a., ASQ.org, n.d.
+- [A Visual Guide to Version Control](https://betterexplained.com/articles/a-visual-guide-to-version-control/), n.a., Better Explained, n.d.
+
+#### Discussion Board: SETA
+
+Robin Georgiou, the Chief Security Officer at MeCo, has decided that the company needs a dedicated Security Education Training and Awareness (SETA) program. They would like you to create a short presentation (PowerPoint or Sway) that provides information on at least two sources that can be used when setting up such a program. Information on each should include a description of the source, summary of the recommended steps, and which source you recommend, and why.
+
+If you are using PowerPoint, save it as a .pdf file. Most browsers open .pdf files in new tab, much easier than downloading a .ppt file for viewing!
+
+- In your responses to other students, provide feedback on their recommendation.
+
+#### Assignments
+
+##### Assignment 10.2: Software Development Standards
+
+This chapter includes a short list of organizations that are sources of standards and frameworks for supporting secure development. Write a two (2) page paper that provides a brief description, targeted industry (if any), and types of resources available for each of the following:
+
+- BSA|The Software Alliance (BSA.org)
+- OWASP (OWASP.org)
+- SAFEcode (safecode.org)
+
+#### Summary
