@@ -506,3 +506,58 @@ This chapter includes a short list of organizations that are sources of standard
 - SAFEcode (safecode.org)
 
 #### Summary
+
+## Week Nine
+
+**Monday, May 18th, 2026 through Sunday, May 24th, 2026**
+
+### Module Eleven: Secure Software Deployment, Operations, Maintenance, and Supply Chain
+
+During this module, you will be exploring operational risk management, how to release software securely, how to store and manage security data, incident responses, vulnerability management, and how to support the continuity of operations as well as learning about supplier risk assessment.
+
+#### Deliverables
+
+- Module 11.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CT.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CT.
+- Module 11.2 Assignment: ORM - Due by Sunday 11:59 p.m., CT.
+- Module 11.3 Quiz: Secure Software Deployment, Operations and Maintenance - Due by Sunday 11:59 p.m., CT.
+- Module 11.4 Assignment: Final Report - Due by Sunday 11:59 p.m., CT.
+
+#### Resources
+
+- CSSLP Exam Guide, 3rd. Edition - Chapters 16 - 19.
+- [Supply Chain and Software Acquisition](https://www.everstream.ai/articles/supply-chain-risk-assessment-template-how-ai-helps/), Henry Bonner, Riskpulse, November 23, 2020.
+- [Manage the Risks of Software Reuse, Gregory Vial](https://sloanreview.mit.edu/article/manage-the-risks-of-software-reuse/), MIT Sloan Management Review, May 23, 2022.
+- [Recommended Minimum Standard for Vendor or Developer Verification of Code](https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity/recommended-minimum-standard-vendor-or-developer), n.a., NIST.gov, October 7, 2021.
+
+#### Discussion Board
+
+For this module's discussion board assignment, select one of the following to discuss:
+
+Find at least two (2) articles that provide information on vendor security assessment. Briefly describe what each site offers and provide a recommendation to your classmates. Why did you recommend this specific site?
+Go out to [Cloud Storage Service Level Agreement (SLA)](https://cloud.google.com/storage/sla) and describe the elements that make up this Service Level Agreement (SLA). Does anything surprise you about this agreement? Is anything missing that should be included?
+
+#### Assignments
+
+##### Assignment 11.2: ORM
+
+Time for a little research. The Mesusa Corporation (MeCo) is not convinced that they have a good understanding of Operational Risk Management (ORM) during software deployment. Your task is to conduct research and find at least three (3) sources that provide information on deployment risk. Provide a summary of each source; does the source provide steps? does it provide best practices on reducing that risk? The last step would be to provide a comprehensive look at the sources. What do they have in common? Is there one source you would recommend to MeCo? Why or why not?
+
+##### Assignment 11.4: Final Report
+
+Moira Bennie, the CIO at Mesusa Corporation (MeCo), has decided that the organization needs a dedicated change control/configuration management process. She tasked George Everett, the senior developer, to develop a report that provides information on the importance of this type of process and a blueprint for setting up the process as soon as possible. George has now passed the task to you.
+
+The report should include the following, at a minimum:
+
+- A detailed description of each process and if/how they are related.
+- The benefits and drawbacks of having these processes in place.
+- A recommendation for what needs to be in place for the process to work efficiently. Adding a team? Using an employee as required?
+- The activities expected to use the process at each phase of the secure development lifecycle.
+- Estimates of the number of requests at each phase of the secure development lifecycle.
+- A list of resources used in case either Moira or George wants to view where to find supporting information.
+
+This report is due by the end of the course. It should be between 5-7 pages, not counting a cover page and a reference page. If you can find graphics to support elements of the report, include them.
+
+**Final Report due Module 11.**
+
+#### Summary
